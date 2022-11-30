@@ -1,0 +1,46 @@
+@media screen and (max-width: 1300px) {
+  .container-big-card {
+    width: 280px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .big-card-title h1 a {
+    font-size: 1.4rem;
+  }
+  .big-card-description > p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-big-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 600px;
+    height: 270px;
+  }
+  .container-big-card img {
+    height: 127px;
+    min-width: 206px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container-big-card {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 340px;
+    gap: 5px;
+  }
+
+  .big-card-description > p {
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+}

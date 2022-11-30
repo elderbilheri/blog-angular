@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) {
+  .container-articles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    max-width: 1fr;
+  }
+
+  .articles-others {
+    margin-top: 20px;
+  }
+
+  .articles-others:last-child {
+    margin-bottom: 40px;
+  }
+}

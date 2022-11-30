@@ -1,0 +1,12 @@
+@media screen and (max-width: 1300px) {
+  .container-menu-title > h1 {
+    font-size: 5rem;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container-menu-title > h1 {
+    font-size: 3rem;
+  }
+}

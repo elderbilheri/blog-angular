@@ -1,0 +1,9 @@
+@media screen and (max-width: 550px) {
+  .container-menu-bar {
+    text-align: center;
+  }
+
+  /* .container-menu-bar > ul {
+    justify-self: center;
+  } */
+}
