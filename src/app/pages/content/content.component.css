@@ -1,0 +1,25 @@
+.container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.container-content img {
+  width: 650px;
+  min-width: 350px;
+  height: 400px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 1px #6d6d6d;
+}
+
+#button-back {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+#button-back:hover {
+  color: #ffd700;
+}
